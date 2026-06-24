@@ -1,4 +1,4 @@
-# 🛡️ HARIS / VIGIL·AI
+# HARIS / VIGIL·AI
 
 **HARIS (Human Activity Recognition & Intelligent Surveillance)** is an AI-powered real-time surveillance platform that combines computer vision, pose estimation, and interactive analytics to provide intelligent security monitoring through a modern web dashboard.
 
@@ -6,16 +6,24 @@ The system leverages **YOLOv8** for object detection and **MediaPipe** for human
 
 ---
 
-## ✨ Features
+## Overview
 
-### 🎯 Real-Time Object Detection
+HARIS transforms conventional camera feeds into intelligent monitoring systems capable of detecting objects, analyzing human behavior, generating alerts, and providing actionable insights through an interactive dashboard.
+
+The platform follows a modular architecture that separates AI inference, data management, and user interface layers, making it scalable and easy to maintain.
+
+---
+
+## Features
+
+### Real-Time Object Detection
 
 * Detects people and common objects using YOLOv8.
 * Displays live bounding boxes and confidence scores.
 * Processes video streams directly from connected cameras.
 * Supports real-time visual monitoring.
 
-### 🧍 Human Pose & Activity Analysis
+### Human Pose and Activity Analysis
 
 * Full-body tracking using MediaPipe Pose Estimation.
 * Detects behavior-based events such as:
@@ -26,30 +34,30 @@ The system leverages **YOLOv8** for object detection and **MediaPipe** for human
   * Area monitoring
 * Provides contextual awareness beyond traditional object detection.
 
-### 🚨 Alert Management
+### Alert Management
 
 * Automatically generates alerts for detected events.
 * Stores incidents in an SQLite database.
 * Maintains a searchable event history.
-* Supports rapid incident review and investigation.
+* Supports incident review and investigation workflows.
 
-### 📊 Analytics Dashboard
+### Analytics Dashboard
 
 * Live camera monitoring interface.
 * Event timeline visualization.
 * Interactive charts and statistics.
 * Historical alert analysis.
-* Responsive and modern UI experience.
+* Responsive user experience.
 
-### 🔍 Search & Filtering
+### Search and Filtering
 
 * Filter events by type, date, and timestamp.
-* Instant client-side searching.
-* Fast navigation through historical incidents.
+* Instant client-side search functionality.
+* Efficient navigation through historical incidents.
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```text
 Camera Feed
@@ -74,7 +82,7 @@ React Dashboard
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 haris-OTC/
@@ -110,9 +118,9 @@ haris-OTC/
 
 ---
 
-## 🚀 Installation
+## Installation
 
-### 1. Backend Setup
+### Backend Setup
 
 ```bash
 cd backend
@@ -152,7 +160,7 @@ http://127.0.0.1:5000
 
 ---
 
-### 2. Frontend Setup
+### Frontend Setup
 
 ```bash
 cd frontend
@@ -169,7 +177,7 @@ http://localhost:5173
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Frontend
 
@@ -187,7 +195,7 @@ http://localhost:5173
 * SQLAlchemy
 * OpenCV
 
-### AI & Computer Vision
+### Artificial Intelligence
 
 * YOLOv8
 * MediaPipe Pose Estimation
@@ -198,7 +206,7 @@ http://localhost:5173
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 Add screenshots or GIF demonstrations here.
 
@@ -210,7 +218,7 @@ Add screenshots or GIF demonstrations here.
 
 ---
 
-## 🔮 Future Improvements
+## Roadmap
 
 * Multi-camera support
 * User authentication and role management
@@ -219,16 +227,16 @@ Add screenshots or GIF demonstrations here.
 * Custom monitoring zones
 * Advanced behavior recognition
 * Exportable incident reports
-* Real-time analytics enhancements
+* Enhanced real-time analytics
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 👥 Contributors
+## Contributors
 
-Developed as part of the **One Tech Crew (OTC)** initiative, focusing on AI-driven surveillance, computer vision, and real-time analytics.
+Developed as part of the One Tech Crew (OTC) initiative, focusing on AI-driven surveillance, computer vision, and real-time analytics.
