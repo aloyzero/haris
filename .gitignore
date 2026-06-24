@@ -1,24 +1,29 @@
-# Logs
-logs
-*.log
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.venv/
+env/
+
+# Database & Screen captures (Keep your database private!)
+Haris_Brian-main/instance/
+Haris_Brian-main/static/screenshots/
+*.sqlite
+*.db
+
+# AI Models (Users should download these automatically upon running)
+*.pt
+*.task
+yolov8n.pt
+pose_landmarker_full.task
+
+# Node.js
+haris/node_modules/
+haris/dist/
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# OS specific
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
